@@ -1,0 +1,9 @@
+{
+    "name": "@my-scope/core",
+    "version": "0.0.1",
+    "main": "./src/index.tsx",
+    "dependencies": {},
+    "devDependencies": {},
+    "private": true
+  }
+  

@@ -1,23 +1,22 @@
 {
-  "dependencies": {
-    "expo": "~42.0.0",
-    "next": "9.3.5",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
-    "react-native-web": "~0.13.12"
-  },
-  "devDependencies": {
-    "@babel/core": "~7.9.0",
-    "@expo/next-adapter": "~2.1.52"
-  },
-  "scripts": {
-    "start": "next dev",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject",
-    "build": "next build"
-  },
-  "private": true
-}
+    "name": "@my-scope/monorepo",
+    "description": "Reproduction example of issues with transpiling modules using Next.js 11 and Expo 42",
+    "repository": "",
+    "author": "Kirill Klimenko <klimenkomud@gmail.com>",
+    "license": "MIT",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": [
+      "packages/*"
+    ],
+    "dependencies": {
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+      "@types/react": "17.0.14",
+      "@types/react-native": "0.64.12",
+      "typescript": "4.3.5"
+    }
+  }
+  

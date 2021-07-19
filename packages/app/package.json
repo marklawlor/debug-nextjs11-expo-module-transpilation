@@ -1,0 +1,32 @@
+{
+  "name": "@my-scope/app",
+  "version": "0.0.1",
+  "dependencies": {
+    "@my-scope/core": "0.0.1",
+    "expo": "42.0.1",
+    "expo-yarn-workspaces": "^1.5.2",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-web": "0.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "@expo/next-adapter": "3.0.1",
+    "next-compose-plugins": "^2.2.1",
+    "next-fonts": "^1.5.1",
+    "next-images": "^1.8.1",
+    "next-transpile-modules": "^8.0.0"
+  },
+  "scripts": {
+    "start": "next dev",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "build": "next build",
+    "postinstall": "expo-yarn-workspaces postinstall"
+  },
+  "private": true
+}
